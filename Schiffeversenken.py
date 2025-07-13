@@ -64,7 +64,7 @@ else:
 if level == "Matrose (6x6)":
     f = 6
     schiffe = [4, 3, 2, 2, 2, 1]
-    MAX_ZUEGE = 15
+    MAX_ZUEGE = 13
 elif level == "Bootsmann (7x7)":
     f = 7
     schiffe = [5, 4, 3, 3, 2]
