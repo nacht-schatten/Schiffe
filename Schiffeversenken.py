@@ -153,7 +153,7 @@ def zeige_spielfeld(versuche, wasser_marker, treffer_marker):
                 symbol = "💥"
             else:
                 farbe = "#ADD8E6"
-                symbol = "🟦"
+                symbol = "🌊"
             grid_html += f"<td style='width:24px;height:24px;text-align:center;background-color:{farbe};border:1px solid #ccc'>{symbol}</td>"
         grid_html += "</tr>"
     grid_html += "</table>"
