@@ -343,7 +343,7 @@ def zeige_auswertung(korrekt, verpasst, daneben):
                    symbol = "❓"
                else:
                    farbe = "#ADD8E6"
-                   symbol = "🟦"
+                   symbol = "🌊"
                html += f"<td style='width:24px;height:24px;text-align:center;background-color:{farbe};border:1px solid #aaa'>{symbol}</td>"
            html += "</tr>"
        html += "</table>"
