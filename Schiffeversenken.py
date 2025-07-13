@@ -67,7 +67,7 @@ if level == "Matrose (6x6)":
     MAX_ZUEGE = 13
 elif level == "Bootsmann (7x7)":
     f = 7
-    schiffe = [5, 4, 3, 3, 2]
+    schiffe = [5, 4, 3, 3, 2, 1]
     MAX_ZUEGE = 17  
 elif level == "Leutnant (8x8)":
     f = 8
@@ -450,7 +450,7 @@ if st.session_state.phase == "raten":
         if anzahl_versenkt < 1:
             st.error("❌ Keine Schiffe enttarnt!")
         elif anzahl_versenkt <   len(st.session_state.schiffe_info):
-            st.warning(f"🚤 **{anzahl_versenkt}** von {len(st.session_state.schiffe_info)} Schiffen versenkt")
+            st.warning(f"🚤 **{anzahl_versenkt}** von {len(st.session_state.schiffe_info)} Schiffen enttarnt!")
         else:
             st.success("🎉 Alle Schiffe enttarnt!")
     
